@@ -1,0 +1,20 @@
+# Masmorra das Cartas — pacote PWA
+
+Esta pasta contém uma primeira versão instalável (PWA) baseada no HTML fornecido.
+
+## Publicar gratuitamente no Netlify
+1. Extraia este ZIP.
+2. Abra https://app.netlify.com/drop
+3. Arraste a pasta `MasmorraApp` (ou o conteúdo dela) para a área de publicação.
+4. Abra o endereço HTTPS gerado pelo Netlify.
+5. Teste o jogo no computador e no celular.
+
+## Instalar
+- Android: abra o endereço no Chrome e use “Instalar app” ou “Adicionar à tela inicial”.
+- iPhone: abra o endereço no Safari > Compartilhar > Adicionar à Tela de Início.
+
+## Importante
+- O arquivo original do jogo foi mantido dentro de `index.html`; o conteúdo do jogo não foi refeito.
+- Login, salvamento na nuvem e ranking do Supabase precisam de internet.
+- O cache pode manter o shell e alguns arquivos estáticos disponíveis offline depois da primeira visita, mas não garante uma partida totalmente offline: o jogo carrega bibliotecas/modelos externos e alguns recursos dependem da rede.
+- Esta etapa cria a versão PWA. Ainda não cria um APK Android nativo.
